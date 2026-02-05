@@ -1,0 +1,26 @@
+[package]
+name = "readable-rs"
+version = "0.1.0"
+authors = ["Ahmed Ali <eng.ahmed.ali.awad@gmail.com>"]
+edition = "2024"
+license = "Apache-2.0"
+description = "A native Rust port of Mozilla's Readability algorithm which is based on Arc90) for extracting article content from HTML"
+readme = "README.md"
+repository = "https://github.com/Ahmed-Ali/readable-rs"
+homepage = "https://github.com/Ahmed-Ali/readable-rs"
+documentation = "https://docs.rs/readable-rs"
+keywords = ["html", "readability", "article", "extraction", "mozilla"]
+categories = ["text-processing", "web-programming", "parsing"]
+exclude = ["test_textures/", "Tasks.md"]
+
+[dependencies]
+regex = "1"
+url = "2.1.1"
+bitflags = "2.10.0"
+kuchikikiki = "0.9.2"
+html5ever = "0.38.0"
+serde_json = "1.0.44"
+
+[dev-dependencies]
+test-generator = "0.3.0"
+serde = { version = "1.0.104", features = ["derive"] }
