@@ -8,7 +8,7 @@ This is a faithful port of Mozilla's Readability.js. The scoring algorithm, retr
 
 ```toml
 [dependencies]
-readable-rs = "0.1.1"
+readable-rs = "0.1.2"
 ```
 
 ## Usage
@@ -63,10 +63,6 @@ All options live on [`ExtractOptions`](https://docs.rs/readable-rs/latest/readab
 | `remove_style_tags` | true | Strip `<style>` elements |
 | `keep_classes` | true | Preserve CSS classes on output nodes |
 | `ready_for_epub` | false | Apply stricter cleanup for EPUB compatibility |
-
-## Credits
-
-This project is a Rust port of [Mozilla's Readability.js](https://github.com/mozilla/readability).
 
 ## License
 
