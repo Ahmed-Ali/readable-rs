@@ -8,7 +8,7 @@ readme = "README.md"
 repository = "https://github.com/Ahmed-Ali/readable-rs"
 homepage = "https://github.com/Ahmed-Ali/readable-rs"
 documentation = "https://docs.rs/readable-rs"
-keywords = ["html", "readability", "article", "extraction", "mozilla", "arc90"]
+keywords = ["html", "readability", "extraction", "mozilla", "arc90"]
 categories = ["text-processing", "web-programming", "parsing"]
 exclude = ["test_textures/", "Tasks.md"]
 
