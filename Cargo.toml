@@ -1,10 +1,10 @@
 [package]
 name = "readable-rs"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ahmed Ali <eng.ahmed.ali.awad@gmail.com>"]
 edition = "2024"
 license = "Apache-2.0"
-description = "A native Rust port of Mozilla's Readability algorithm which is based on Arc90) for extracting article content from HTML"
+description = "A native Rust port of Mozilla's Readability algorithm for extracting readable content from HTML pages"
 readme = "README.md"
 repository = "https://github.com/Ahmed-Ali/readable-rs"
 homepage = "https://github.com/Ahmed-Ali/readable-rs"

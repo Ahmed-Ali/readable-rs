@@ -1,14 +1,14 @@
 # readable-rs
 
-A native Rust implementation of the [Readability](https://github.com/mozilla/readability) algorithm for extracting article content from HTML pages.
+A native Rust implementation of the [Readability](https://github.com/mozilla/readability) algorithm for extracting the main readable content from HTML pages, stripping away navigation, ads, and other clutter.
 
-This is a faithful port of Mozilla's Readability.js, which itself originated from Arc90's readability project. The scoring algorithm, retry strategy, and heuristics match the upstream JavaScript library.
+This is a faithful port of Mozilla's Readability.js. The scoring algorithm, retry strategy, and heuristics match the upstream JavaScript library.
 
 ## Installation
 
 ```toml
 [dependencies]
-readable-rs = "0.1"
+readable-rs = "0.1.1"
 ```
 
 ## Usage
@@ -66,8 +66,8 @@ All options live on [`ExtractOptions`](https://docs.rs/readable-rs/latest/readab
 
 ## Credits
 
-This project is a Rust port of [Mozilla's Readability.js](https://github.com/mozilla/readability), which was originally based on Arc90's readability project (Copyright (c) 2010 Arc90 Inc).
+This project is a Rust port of [Mozilla's Readability.js](https://github.com/mozilla/readability).
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Apache-2.0 — see [LICENSE](LICENSE).
